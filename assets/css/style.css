@@ -97,9 +97,9 @@ body {
     color: white;
 }
 
-    .btn:focus {
-        outline: none;
-    }
+.btn:focus {
+    outline: none;
+}
 
 .btn--big {
     padding-top: 10px;
@@ -126,44 +126,44 @@ body {
     color: blue;
 }
 
-    .btn--blue:active,
-    .btn--blue:hover {
-        background-color: darkblue;
-        color: white;
-    }
+.btn--blue:active,
+.btn--blue:hover {
+    background-color: darkblue;
+    color: white;
+}
 
 .btn--orange {
     border-color: orange;
     color: orange;
 }
 
-    .btn--orange:active,
-    .btn--orange:hover {
-        background-color: darkorange;
-        color: white;
-    }
+.btn--orange:active,
+.btn--orange:hover {
+    background-color: darkorange;
+    color: white;
+}
 
 .btn--red {
     border-color: red;
     color: red;
 }
 
-    .btn--red:active,
-    .btn--red:hover {
-        background-color: darkred;
-        color: white;
-    }
+.btn--red:active,
+.btn--red:hover {
+    background-color: darkred;
+    color: white;
+}
 
 .btn--green {
     border-color: green;
     color: green;
 }
 
-    .btn--green:active,
-    .btn--green:hover {
-        background-color: darkgreen;
-        color: white;
-    }
+.btn--green:active,
+.btn--green:hover {
+    background-color: darkgreen;
+    color: white;
+}
 
 .btn--gray {
     margin-top: 25px;
@@ -172,10 +172,10 @@ body {
     border-radius: 20px;
 }
 
-    .btn--gray:active,
-    .btn--gray:hover {
-        background-color: #0d1013;
-    }
+.btn--gray:active,
+.btn--gray:hover {
+    background-color: #0d1013;
+}
 
 /* --------- Media queries */
 
@@ -193,21 +193,21 @@ body {
         font-size: 1.5rem;
     }
 
-        .btn--big::after {
-            font-size: 0.6rem;
-            left: -0.7rem;
-        }
+    .btn--big::after {
+        font-size: 0.6rem;
+        left: -0.7rem;
+    }
 
     .question-area {
         padding: 10% 0;
         width: 100%;
     }
 
-        .question-area span {
-            padding: 0;
-        }
+    .question-area span {
+        padding: 0;
+    }
 
-    .answer-message {
+    .answer-msg {
         display: block;
     }
 
