@@ -87,7 +87,8 @@ function calculateCorrectAnswer() {
     } else if (operator === "x") {
         return [operand1 * operand2, "multiply"];
     } else if (operator === "/") {
-        return [operand1 / operand2, "divide"];
+        //rounded for easier answering
+        return [Math.round(operand1 / operand2), "divide"];
     } else {
         alert(`Unimplemented operator ${operator}.`);
         throw `Unimplemented operator ${operator}. Aborting.`;
@@ -127,6 +128,7 @@ function displayMultiplyQuestion(operand1, operand2) {
 }
 
 function displayDivideQuestion(operand1, operand2) {
+    operand1 = operand1 * (Math.floor(Math.random() * operand2));
     document.getElementById('operand1').textContent = operand1;
     document.getElementById('operand2').textContent = operand2;
     document.getElementById('operator').textContent = "/";
